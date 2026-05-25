@@ -95,7 +95,7 @@ export function saveTo(data) {
 
 // Замените на URL вашего развернутого бэка (например, https://mysite.com)
 // Для локальных тестов используйте 'http://localhost:3000'
-const BACKEND_URL = "https://109.69.17.50";
+const BACKEND_URL = "https://sashatanyaforever.ru";
 
 export async function sendToBackend(guestSlug, title, formData) {
   try {
