@@ -24,11 +24,22 @@ function App() {
     document.addEventListener("gesturestart", function (event) {
       event.preventDefault();
     });
-    /* Предотвращение масштабирования через 'touchmove' в старых версиях iOS */
+    // Блокировка масштабирования двумя пальцами
+    document.addEventListener(
+      "touchstart",
+      function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      },
+      { passive: false }
+    );
+
+    // Дублирующий контроль при движении
     document.addEventListener(
       "touchmove",
       function (event) {
-        if (event.scale !== 1) {
+        if (event.touches.length > 1) {
           event.preventDefault();
         }
       },
