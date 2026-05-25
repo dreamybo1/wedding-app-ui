@@ -319,13 +319,6 @@ export default function DressCodeSection() {
           <span className="dc-div-diamond" />
           <span className="dc-div-line dc-div-line-r" />
         </div>
-
-        <p className="dc-main-text">
-          Никаких строгих правил. Главное, что мы ждём — это{" "}
-          <em>ваши улыбки и отличное настроение.</em> Мероприятие будет в
-          ресторане, поэтому ориентируйтесь на комфорт и аккуратную одежду, в
-          которой вам будет приятно провести вечер.
-        </p>
       </section>
     </>
   );

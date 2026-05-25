@@ -31,7 +31,7 @@ export const FILM_FRAMES = [
   },
   {
     url: "/assets/6.webp",
-    caption: "Наша позедка в столицу",
+    caption: "Наша поездка в столицу",
     sub: "2025 · Лето",
     code: "KP4-04D",
   },
