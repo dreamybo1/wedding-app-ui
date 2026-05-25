@@ -101,7 +101,7 @@ export default function Hero() {
             transform: "translate3d(0,0,0)",
           }}
         >
-          <img src="src/assets/hero.webp" alt="Wedding" />
+          <img src="/assets/hero.webp" alt="Wedding" />
           <div className="hero-overlay" />
         </div>
         <div
@@ -113,7 +113,7 @@ export default function Hero() {
           }}
         >
           <img
-            src="src/assets/hero.webp"
+            src="/assets/hero.webp"
             alt="Wedding"
             style={{ right: 0, left: "auto" }}
           />

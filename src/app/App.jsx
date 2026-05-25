@@ -34,7 +34,7 @@ function App() {
             <TransitionLines />
             <DotLottieReact
               className="transition-block-conffeti"
-              src="src/assets/Confetti.lottie"
+              src="/assets/Confetti.lottie"
               loop
               autoplay
             />
