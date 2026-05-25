@@ -1,7 +1,7 @@
 export const FILM_FRAMES = [
   {
     url: "/assets/1.webp",
-    caption: "Прогулка в парке",
+    caption: "Наш первый апрель",
     sub: "2023 · ВЕСНА",
     code: "KP4-01A",
   },
