@@ -13,25 +13,25 @@ export const FILM_FRAMES = [
   },
   {
     url: "/assets/3.webp",
-    caption: "Ласточка в Магнитогорск",
+    caption: "По пути в Магнитогорск",
     sub: "2023 · Осень",
     code: "KP4-03C",
   },
   {
     url: "/assets/4.webp",
-    caption: "Выпуск 2024",
+    caption: "#Выпуск2024",
     sub: "2024 · ЛЕТО",
     code: "KP4-04D",
   },
   {
     url: "/assets/5.webp",
-    caption: "Екатеринбург. Танин день рождения",
+    caption: "Екатеринбург. День рождения Тани",
     sub: "2025 · ЗИМА",
     code: "KP4-04D",
   },
   {
     url: "/assets/6.webp",
-    caption: "Москва, трудостройство в Сбер",
+    caption: "Наша позедка в столицу",
     sub: "2025 · Лето",
     code: "KP4-04D",
   },
@@ -49,7 +49,7 @@ export const FILM_FRAMES = [
   },
   {
     url: "/assets/9.webp",
-    caption: "Предложение в Moscow City",
+    caption: "Предложение руки и сердца",
     sub: "2026 · Зима",
     code: "KP4-04D",
   },
