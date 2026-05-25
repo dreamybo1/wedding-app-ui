@@ -20,6 +20,8 @@ export const GUEST_MAP = {
   anastasiya: { title: "Настя", sex: "female" },
   default: { title: "Гость", sex: "male" },
   test: { title: "Test", sex: "male" },
+  test_decline: { title: "Тест Отказался", sex: "male" },
+  tanya_test: { title: "Таня", sex: "female" },
 };
 
 // ── CONFIG ─────────────────────────────────────────────────
