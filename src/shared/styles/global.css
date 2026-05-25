@@ -811,7 +811,6 @@ body {
 }
 
 /* ── FILMSTRIP ────────────────────────────────────────── */
-/* filmstrip.css */
 
 @keyframes flicker {
   0%,
@@ -938,11 +937,11 @@ body {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  width: 520px;
+  width: 320px;
 }
 
 .fs-holes {
-  width: 28px;
+  width: 22px;
   background: var(--dark-mid);
   display: flex;
   flex-direction: column;
@@ -955,8 +954,8 @@ body {
 }
 
 .fs-hole {
-  width: 14px;
-  height: 10px;
+  width: 12px;
+  height: 9px;
   background: var(--dark);
   border-radius: 2px;
   border: 1px solid rgba(196, 120, 42, 0.2);
@@ -976,31 +975,18 @@ body {
   animation: revealFrame 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+/* 9:16 portrait — картинка занимает весь кадр целиком */
 .fs-img {
   width: 100%;
-  height: 280px;
-  object-fit: contain;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
   display: block;
   filter: saturate(0.75) contrast(1.05) brightness(0.88) sepia(0.15);
-  transform: scale(1.04);
-  transition: transform 8s ease;
   z-index: 1;
 }
 
-.fs-bg-img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  display: block;
-  position: absolute;
-  filter: saturate(0.75) contrast(1.05) brightness(0.88) sepia(0.15) blur(3px);
-  transform: scale(1.04);
-  transition: transform 8s ease;
-  z-index: -1;
-}
 .fs-frame-wrap.revealed .fs-img {
   animation: burnIn 1.2s ease forwards;
-  transform: scale(1);
 }
 
 .fs-grain {
@@ -1101,7 +1087,7 @@ body {
 }
 
 .fs-splice {
-  width: 520px;
+  width: 320px;
   height: 12px;
   background: var(--dark-mid);
   border-top: 1px solid rgba(196, 120, 42, 0.12);
@@ -1148,32 +1134,19 @@ body {
 
 /* ── Адаптив ── */
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .fs-row,
   .fs-splice {
     width: 100vw;
   }
 
-  .fs-img {
-    height: 220px;
-  }
-
   .fs-holes {
-    width: 20px;
+    width: 18px;
   }
 
   .fs-hole {
     width: 10px;
     height: 7px;
-  }
-
-  .fs-header {
-    padding: 14px 16px 12px;
-  }
-
-  .fs-logo {
-    font-size: 9px;
-    letter-spacing: 3px;
   }
 
   .fs-caption {
@@ -1192,25 +1165,6 @@ body {
 
   .fs-strip {
     padding-top: 24px;
-  }
-}
-
-@media (max-width: 380px) {
-  .fs-img {
-    height: 180px;
-  }
-
-  .fs-holes {
-    width: 16px;
-  }
-
-  .fs-hole {
-    width: 8px;
-    height: 6px;
-  }
-
-  .fs-caption {
-    font-size: 11px;
   }
 }
 /* ── INVITATION BLOCK ─────────────────────────────────── */

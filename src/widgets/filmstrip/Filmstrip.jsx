@@ -59,7 +59,7 @@ export default function Filmstrip() {
                 data-idx={i}
                 className={`fs-frame-wrap ${visible[i] ? "revealed" : ""}`}
               >
-                <img src={f.url} alt={f.caption} className="fs-bg-img" />
+                {/* fs-bg-img убран — используем только основную фотографию */}
                 <img src={f.url} alt={f.caption} className="fs-img" />
                 <div className="fs-grain" />
                 <div className="fs-scan" />
