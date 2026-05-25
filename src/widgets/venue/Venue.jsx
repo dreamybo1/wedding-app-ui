@@ -12,17 +12,17 @@ export default function Venue() {
     {
       name: "2ГИС",
       href: `https://2gis.ru/search/${encodedAddr}`,
-      icon: "https://logo-teka.com/wp-content/uploads/2025/06/2gis-icon-logo.svg",
+      icon: "assets/2gis.svg",
     },
     {
       name: "Яндекс",
       href: `https://yandex.ru/maps/?text=${encodedAddr}`,
-      icon: "https://yandex.ru/maps/favicon.svg",
+      icon: "assets/yandex.svg",
     },
     {
       name: "Google",
       href: `https://maps.google.com/?q=${encodedAddr}`,
-      icon: "https://www.google.com/favicon.ico",
+      icon: "assets/google.ico",
     },
   ];
 
