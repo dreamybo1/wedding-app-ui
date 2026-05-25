@@ -11,6 +11,8 @@ import { WeddingLoader } from "../shared/ui/WeddingLoader/WeddingLoader";
 import { useLoadAssets } from "../shared/hooks/useLoadAssets";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { TransitionLines } from "../shared/ui/TransitionLines/TransitionLines";
+import DressCodeSection from "../widgets/dresscode/Dresscode";
+import GiftsSection from "../widgets/gifts/Gifts";
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -70,6 +72,8 @@ function App() {
             <InvitationText />
             <Countdown />
             <Venue />
+            <DressCodeSection />
+            <GiftsSection />
             <RSVPForm />
 
             <footer className="site-footer">
