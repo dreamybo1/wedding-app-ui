@@ -125,11 +125,11 @@ export default function Hero() {
         <p className="eyebrow">Приглашение на свадьбу</p>
 
         <h1 className="names">
-          {COUPLE.bride}
+          <p style={{marginRight: "150px"}}>{COUPLE.bride}</p>
           <br />
           &amp;
           <br />
-          {COUPLE.groom}
+          <p style={{marginLeft: "150px"}}>{COUPLE.groom}</p>
         </h1>
 
         <p className="date-line">25 · 07 · 2026</p>

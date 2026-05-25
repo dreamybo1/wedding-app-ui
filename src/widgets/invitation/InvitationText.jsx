@@ -27,11 +27,6 @@ export default function InvitationText() {
           <br />
         </p>
         <div className="gold-line" />
-        <div className="couple-names-big">
-          {COUPLE.bride}
-          <span>&</span>
-          {COUPLE.groom}
-        </div>
       </div>
     </section>
   );
