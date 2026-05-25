@@ -11,8 +11,9 @@ export default function InvitationText() {
     <section className="invitation-section" ref={ref}>
       <div className={`fade-in ${visible ? "visible" : ""}`}>
         <div className="ornament">✦ · · ✦</div>
-        <p className="invite-dear">Дорог{isMale ? "ой" : "ая"}</p>
-        <h2 className="invite-guests">{title}</h2>
+        <h2 className="invite-guests">
+          Дорог{isMale ? "ой" : "ая"} {title}
+        </h2>
         <p className="invite-body">
           Мы рады сообщить, что вскоре наступит
           <br />

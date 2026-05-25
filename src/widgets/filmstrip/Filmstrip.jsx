@@ -96,7 +96,7 @@ export default function Filmstrip() {
           </Fragment>
         ))}
         <div className="fs-footer">
-          <p className="fs-footer-line">— конец плёнки —</p>
+          <p className="fs-footer-line">— продолжение следует... —</p>
         </div>
       </div>
     </section>
