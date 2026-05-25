@@ -978,7 +978,7 @@ body {
 /* 9:16 portrait — картинка занимает весь кадр целиком */
 .fs-img {
   width: 100%;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
   filter: saturate(0.75) contrast(1.05) brightness(0.88) sepia(0.15);
