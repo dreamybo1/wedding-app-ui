@@ -31,7 +31,7 @@ export default function Countdown() {
         <div className="countdown-calendar">
           <div className="calendar-month">Июль 2026</div>
           <div className="calendar-day">25</div>
-          <div className="calendar-dow">суббота</div>
+          <div className="calendar-dow">суббота 15:30</div>
         </div>
         {time.past ? (
           <p
